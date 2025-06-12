@@ -1,0 +1,39 @@
+# IDE and system files
+.vscode/
+.idea/
+.cursor/
+*.swp
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Local files and test data
+*.wav
+*.mp3
+*.m4a
+*.onnx
+/silero_vad.onnx
+/vad.worklet.min.js
+/ort-wasm.wasm
+/ort-wasm-simd.wasm
+
+# Temporary model folders (if they are at the root)
+/faster-whisper-small/
+/faster-whisper-tiny/
+/models/ 
